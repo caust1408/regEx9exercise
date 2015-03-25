@@ -1,9 +1,11 @@
 ﻿
 
 //accepts cat or car
-verify(/car|cat/,
-       ["my car", "bad cats"],
-       ["camper", "high art"]);
+var test1= /car|cat/;
+var array1 = 
+       ["my car", "bad cats",
+       "camper", "high art"];
+print(test1.test.forEach(array1));
 
 // accepts prop or pop
 verify(/pop|prop/,
